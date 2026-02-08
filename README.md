@@ -9,7 +9,7 @@ IntentFlow allows users to describe an idea in natural language and instantly ge
 - Roadmap timelines  
 - Impact scores  
 
-It uses **[Tambo](https://www.tambo.ai/) Generative UI SDK for React** to dynamically render components based on user input. The AI decides which components to show depending on what the user wants to do — no static UI, fully adaptive.  
+It uses **[Tambo]([https://www.tambo.ai/](https://docs.tambo.co/)) Generative UI SDK for React** to dynamically render components based on user input. The AI decides which components to show depending on what the user wants to do — no static UI, fully adaptive.  
 
 ---
 
@@ -176,4 +176,4 @@ npm list @tambo-ai/react
 
 ## Links & Resources
 
-- **Tambo SDK**: https://www.tambo.ai/
+- **Tambo SDK**: [https://www.tambo.ai/](https://docs.tambo.co/) 
