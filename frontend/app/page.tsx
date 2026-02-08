@@ -34,7 +34,7 @@ export default function Home() {
       >
         <h2 className="text-lg font-bold text-white mb-2">💡 Example Idea Format</h2>
         <p className="text-gray-200 text-sm">
-          "A patient-first healthcare appointment booking app that helps users find the right provider, see real-time availability, book/reschedule/cancel visits (in-person or telehealth), and receive timely reminders—while enabling providers to manage schedules and reduce no-shows through automated matching and notifications."
+          "A patient-first healthcare appointment booking app that helps users find the right provider, see real-time availability, book/reschedule/cancel visits (in-person or telehealth), and receive timely reminders—while enabling providers to manage schedules and reduce no-shows through automated matching and notifications. Please provide a full product analysis including: 1) an intent summary, 2) workflow steps for patient booking, provider matching, and notifications, 3) UI mockups for at least 3 screens with title, description, and image URL, 4) system architecture modules (Frontend, Backend, Database, Notifications, Authentication), 5) impact, creativity, and feasibility scores out of 100, and 6) a phased roadmap (Planning, Design, Development, Testing, Launch)."
         </p>
       </motion.div>
 
