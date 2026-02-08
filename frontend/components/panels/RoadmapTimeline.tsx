@@ -1,7 +1,12 @@
 "use client";
 import { motion } from "framer-motion";
 
-export function RoadmapTimeline({ phases = [] }) {
+type Phase = {
+  title: string;
+  description: string;
+};
+
+export function RoadmapTimeline({ phases = [] }: { phases?: Phase[] }) {
   return (
     <div className="p-6 rounded-2xl bg-orange-900/40 shadow-xl border-l-4 border-orange-400">
       <h2 className="text-xl font-bold text-orange-300 mb-4">📅 Roadmap Timeline</h2>

@@ -46,13 +46,13 @@ export default function Home() {
           value={value}
           onChange={(e) => setValue(e.target.value)}
         />
-        <button
-          onClick={submit}
-          disabled={isPending}
-          className="bg-purple-600 hover:bg-purple-700 px-6 py-2 rounded font-bold"
-        >
-          {isPending ? "Generating..." : "Generate"}
-        </button>
+<button
+  onClick={() => submit()} 
+  disabled={isPending}
+  className="bg-purple-600 hover:bg-purple-700 px-6 py-2 rounded font-bold"
+>
+  {isPending ? "Generating..." : "Generate"}
+</button>
       </div>
 
       {/* Export PDF Button */}
